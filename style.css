@@ -118,14 +118,14 @@ body {
   display: flex;
   justify-content: space-between;
   width: 24.75%;
-  height: 320px;
+ 
   position: relative;
 margin-right: 4px;
   background-color: #000000;
 }
 
 
-.aside-block-trends:after {
+.aside-block-trends::after {
   content: "";
   position: absolute;
   opacity: 60%;
@@ -195,6 +195,8 @@ margin-right: 4px;
 }
 .card-img {
   width: 381px;
+  background-color: #000000;
+  color: #ffffff;
 }
 .card-content {
   margin-left: 31px;
@@ -378,14 +380,18 @@ margin-right: 4px;
   font-weight: 700;
   text-transform: uppercase;
   margin-right: 5px;
-  margin-bottom: 6px;
-  padding: 4px 12px 4px 12px;
-  border: 3px solid #f4f3f1;
+  line-height:35px;
+  
+  
 }
 .tags-link {
   text-decoration: none;
   color: #0f0d0e;
+  padding: 4px 12px 4px 12px;
+  border: 3px solid #f4f3f1;
 }
+
+
 .categories-group {
   padding-left: 0;
   width: 272px;
