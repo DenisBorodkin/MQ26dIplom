@@ -199,6 +199,7 @@ margin-right: 4px;
   margin-top: 64px;
 }
 .card-img {
+  display:block;
   width: 381px;
   background-color: #000000;
   color: #ffffff;
