@@ -1,6 +1,7 @@
 body {
   font-family: OpenSans;
   margin: 0;
+  max-width: 1660px;
 }
 @font-face {
   font-family: OpenSans;
@@ -117,8 +118,8 @@ body {
 .aside-block-trends {
   display: flex;
   justify-content: space-between;
-  width: 24.75%;
- 
+  width: 24.2%;
+  
   position: relative;
 margin-right: 4px;
   background-color: #000000;
@@ -138,7 +139,11 @@ margin-right: 4px;
 .aside-block-trends:nth-last-child(1){
   margin-right: 0;
 }
+.aside-card-img-trends{
+ width:100%;
+ object-fit: cover;
 
+}
 
 .aside-card-content-trends {
   border: 3px solid #b59f5b;
@@ -410,6 +415,15 @@ margin-right: 4px;
   font-size: 14px;
   font-weight: 700;
   line-height: 47px;
+  position: relative;
+}
+.categories-link-figure{
+  position: absolute;
+  margin-left: 4px;
+  padding-top: 2px;
+
+
+
 }
 
 
