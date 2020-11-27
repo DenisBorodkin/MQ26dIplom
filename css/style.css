@@ -459,7 +459,9 @@ body {
 }
 .aside-block-trends-footer{
  height:440px;
-  
+ margin-bottom: 65px;
+  margin-right:auto;
+  margin-left:auto; 
   
   
 }
@@ -473,7 +475,7 @@ body {
 }
 .card-text-footer{
  
-  max-width:255px;
+  max-width:280px;
   
 }
 .card-link-footer{
@@ -502,6 +504,9 @@ body {
   color:#0f0d0e; 
   font-weight:700;
 }
+.item-price:nth-child(1){
+  margin-top:45px;
+}
 .button-store{
   height:48px;
   width:141px;
@@ -512,7 +517,11 @@ body {
   font-weight:700;
   background-color:#b59f5b;
 }
-
+.button-store-link{
+  text-decoration: none;
+  color: #ffffff;
+  
+}
 
 .footer {
   padding-left: 15px;
