@@ -93,8 +93,8 @@ body {
   font-weight: 700;
   line-height: 29px;
   text-transform: uppercase;
-  margin-top:63px;
-  margin-bottom:27px;
+  margin-top: 63px;
+  margin-bottom: 27px;
 }
 
 .aside-block-title-trends::after {
@@ -109,7 +109,6 @@ body {
   background-color: #e1d9bd;
   margin: 0 auto;
   display: block;
-  
 }
 .aside-conteiner-trends {
   display: flex;
@@ -141,7 +140,6 @@ body {
 .aside-block-trends:nth-last-child(1) {
   margin-right: 0;
 }
-
 
 .aside-card-img-trends {
   width: 100%;
@@ -423,8 +421,8 @@ body {
   margin-left: 4px;
   padding-top: 2px;
 }
-.aside-blocks-trends-footer{
-  margin-top:54px;
+.aside-blocks-trends-footer {
+  margin-top: 54px;
 }
 .aside-block-title-trends-footer {
   text-align: center;
@@ -434,7 +432,7 @@ body {
   font-weight: 700;
   line-height: 29px;
   text-transform: uppercase;
-  margin-bottom:27px;
+  margin-bottom: 27px;
 }
 
 .aside-block-title-trends-footer::after {
@@ -451,36 +449,32 @@ body {
   display: block;
 }
 
-.aside-conteiner-trends-footer{
- padding-left:15px;
-  margin-left:auto;
-  margin-right:auto;
-  display:flex;
+.aside-conteiner-trends-footer {
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
 }
-.aside-block-trends-footer{
- height:440px;
- margin-bottom: 65px;
-  margin-right:auto;
-  margin-left:auto; 
-  
-  
+.aside-block-trends-footer {
+  height: 440px;
+  margin-bottom: 65px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.card-name-footer{
-  line-height:24px;
-  font-size:20px;
-  color:0f0d0e;
+.card-name-footer {
+  line-height: 24px;
+  font-size: 20px;
+  color: 0f0d0e;
   text-transform: uppercase;
   font-weight: 700;
 }
-.card-text-footer{
- 
-  max-width:280px;
-  
+.card-text-footer {
+  max-width: 280px;
 }
-.card-link-footer{
- text-decoration: none;
-  color: #b59f5b; 
+.card-link-footer {
+  text-decoration: none;
+  color: #b59f5b;
 }
 .discount-flex-conteiner {
   display: flex;
@@ -489,38 +483,46 @@ body {
 .price-group {
   list-style-type: none;
   color: #b59f5b;
-  margin-right:107px;
+  margin-right: 107px;
 }
 .item-price-discount {
   text-decoration: line-through;
- font-weight:700;
-  font-size:14px;
-  line-height:24px;
-  color:#0f0d0e;
+  font-weight: 700;
+  font-size: 14px;
+
+  color: #0f0d0e;
+  margin-top: 30px;
 }
-.item-price{
- font-size:20px;
-  line-height:24px;
-  color:#0f0d0e; 
-  font-weight:700;
+.item-price-discount:after{
+  content: ' \20BD';
 }
-.item-price:nth-child(1){
-  margin-top:45px;
+
+.item-price {
+  font-size: 20px;
+  line-height: 24px;
+  color: #0f0d0e;
+  font-weight: 700;
 }
-.button-store{
-  height:48px;
-  width:141px;
+.item-price:nth-child(1) {
+  margin-top: 45px;
+}
+.item-price:after{
+  content: ' \20BD';
+}
+.button-store {
+  height: 48px;
+  width: 141px;
   text-transform: uppercase;
-  color:#ffffff;
-  font-size:14px;
-  line-height:40px;
-  font-weight:700;
-  background-color:#b59f5b;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 40px;
+  font-weight: 700;
+  background-color: #b59f5b;
+  margin-top: 23px;
 }
-.button-store-link{
+.button-store-link {
   text-decoration: none;
   color: #ffffff;
-  
 }
 
 .footer {
