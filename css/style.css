@@ -480,6 +480,38 @@ body {
  text-decoration: none;
   color: #b59f5b; 
 }
+.discount-flex-conteiner {
+  display: flex;
+}
+
+.price-group {
+  list-style-type: none;
+  color: #b59f5b;
+  margin-right:107px;
+}
+.item-price-discount {
+  text-decoration: line-through;
+ font-weight:700;
+  font-size:14px;
+  line-height:24px;
+  color:#0f0d0e;
+}
+.item-price{
+ font-size:20px;
+  line-height:24px;
+  color:#0f0d0e; 
+  font-weight:700;
+}
+.button-store{
+  height:48px;
+  width:141px;
+  text-transform: uppercase;
+  color:#ffffff;
+  font-size:14px;
+  line-height:40px;
+  font-weight:700;
+  background-color:#b59f5b;
+}
 
 
 .footer {
