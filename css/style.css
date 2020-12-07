@@ -1,7 +1,6 @@
 body {
   font-family: OpenSans;
   margin: 0;
-  max-width: 1660px;
 }
 @font-face {
   font-family: OpenSans;
@@ -44,6 +43,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 1167px;
+  max-width: 1660px;
 }
 .logo {
   display: block;
@@ -202,6 +202,7 @@ body {
 .card-img {
   display: block;
   width: 381px;
+  height: 100%;
   background-color: #000000;
   color: #ffffff;
 }
@@ -262,7 +263,7 @@ body {
   line-height: 22px;
 }
 .sidebar {
-  width: 272px;
+  width: 290px;
 }
 .sidebar-blocks {
   margin-top: 64px;
@@ -482,7 +483,8 @@ body {
 .price-group {
   list-style-type: none;
   color: #b59f5b;
-  margin-right: 107px;
+  margin-right: 90px;
+  padding-left:0;
 }
 .item-price-discount {
   text-decoration: line-through;
